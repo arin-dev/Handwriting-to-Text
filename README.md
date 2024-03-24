@@ -1,6 +1,7 @@
 # Handwriting to Text Challenge
 
 ## Overview
+
 This project aims to convert handwritten alphabet characters into digital text using accelerometer and gyroscope data. It is divided into three main parts: Data generator, Preprocessing, and Model.
 
 ### 1. Data Generator
@@ -41,4 +42,6 @@ model = Sequential([
     Dense(11, activation='softmax')  
 ])
 ```
+![Alt text](https://github.com/karthikpeddi14/Handwriting-to-Text-Challenge/blob/main/modelphoto.jpg)
+
 We compiled the model using the Adam optimizer and sparse_categorical_crossentropy loss function. The model was trained for 100 epochs with a validation split of 0.2.
