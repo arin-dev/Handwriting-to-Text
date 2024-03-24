@@ -15,12 +15,20 @@
 
 1. **Initiate Data Capture**:
    - Our model is programmed to start capturing values when the marker is suddenly brought down. Move the pen swiftly in the z-direction from above to down onto the paper.
+<img src="https://github.com/karthikpeddi14/Handwriting-to-Text-Challenge/blob/main/Screenshot%202024-03-24%20182240.png" alt="Alt text" width="200"/> 
 
 2. **Write Alphabet**:
    - Once the data capture starts, write the desired alphabet with the marker.
+     
+<img src="https://github.com/karthikpeddi14/Handwriting-to-Text-Challenge/blob/main/Screenshot%202024-03-24%20182240.png" alt="Alt text" width="200"/> 
+
 
 3. **Stop Data Capture**:
    - After completing the writing, repeat the process in reverse by swiftly bringing the pen upwards. This action will stop the program from recording values.
+     
+
+
+<img src="https://github.com/karthikpeddi14/Handwriting-to-Text-Challenge/blob/main/Screenshot%202024-03-24%20182240.png" alt="Alt text" width="200"/> 
 
 ## Viewing Output
 
