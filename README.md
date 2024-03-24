@@ -8,8 +8,8 @@
 2. **Open Arduino IDE and Run the Model**:
    - Launch the Arduino IDE and upload/run our model onto the Arduino Nano BLE-33 device.
 
-3. **Start Writing**:
-   - Begin writing with the marker. The model will capture acceleration and gyroscope values to predict the letter you are writing.
+3. **Start Writing the capital Alphabets**:
+   - Begin writing (only capital Alphabets) with the marker. The model will capture acceleration and gyroscope values to predict the letter you are writing.
 
 ## How to Write
 
