@@ -1,6 +1,34 @@
 # Handwriting to Text Challenge
 
-## Overview
+## How to Use
+
+1. **Attach Arduino Nano BLE-33 to Marker**:
+   - Use tape to securely attach the Arduino Nano BLE-33 device to a marker. Ensure it is glued towards the nib of the marker, not at the end.
+
+2. **Open Arduino IDE and Run the Model**:
+   - Launch the Arduino IDE and upload/run our model onto the Arduino Nano BLE-33 device.
+
+3. **Start Writing**:
+   - Begin writing with the marker. The model will capture acceleration and gyroscope values to predict the letter you are writing.
+
+## How to Write
+
+1. **Initiate Data Capture**:
+   - Our model is programmed to start capturing values when the marker is suddenly brought down. Move the pen swiftly in the z-direction from above to down onto the paper.
+
+2. **Write Alphabet**:
+   - Once the data capture starts, write the desired alphabet with the marker.
+
+3. **Stop Data Capture**:
+   - After completing the writing, repeat the process in reverse by swiftly bringing the pen upwards. This action will stop the program from recording values.
+
+## Viewing Output
+
+- If you followed the steps in the correct order, you can view the output in the serial monitor of the Arduino IDE.
+-------------------------------------------------
+
+
+## Overview of our Approach
 
 This project aims to convert handwritten alphabet characters into digital text using accelerometer and gyroscope data. It is divided into three main parts: Data generator, Preprocessing, and Model.
 
