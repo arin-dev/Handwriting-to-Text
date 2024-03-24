@@ -20,7 +20,7 @@
 2. **Write Alphabet**:
    - Once the data capture starts, write the desired alphabet with the marker.
      
-<img src="https://github.com/karthikpeddi14/Handwriting-to-Text-Challenge/blob/main/Screenshot%202024-03-24%20182240.png" alt="Alt text" width="200"/> 
+<img src="https://github.com/karthikpeddi14/Handwriting-to-Text-Challenge/blob/main/pen%20writing.png" alt="Alt text" width="200"/> 
 
 
 3. **Stop Data Capture**:
